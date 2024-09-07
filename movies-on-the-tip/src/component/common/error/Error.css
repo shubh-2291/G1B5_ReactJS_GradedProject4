@@ -1,0 +1,14 @@
+.errorContainer{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    border: 1px solid #842029;
+    color: #ad1a0e;
+    background-color: #ecaab2;
+    padding: 10px;
+    font-size: x-large;
+    font-weight: bolder;
+    border-radius: 4px;
+    margin: 10px 20%;
+    box-shadow: 1px 1px 8px 1px black;
+}

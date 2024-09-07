@@ -1,0 +1,43 @@
+.DialogContainer{
+    position: relative;
+    display: flex;
+    background-color: snow;
+    box-shadow: 1px 1px 4px 1px gray;
+    padding: 5px;
+    /* gap: 30px; */
+    border-radius: 4px;
+}
+
+.DialogContainer .icon{
+    color: green;
+    margin-left: 20px;
+}
+
+.DialogContainer .message{
+    margin: 0 10px;
+}
+
+.DialogContainer .message h3{
+    margin: 0 10px;
+}
+
+.DialogContainer .message p{
+    margin: 5px;
+
+}
+
+.DialogContainer .icon-cancel{
+    color: tomato;
+    cursor: pointer;
+}
+
+@media screen and (max-width:900px){
+    .DialogContainer .message h3{
+        font-size: large;
+    }
+
+    .DialogContainer .message p{
+       font-size: small;
+    }
+
+}

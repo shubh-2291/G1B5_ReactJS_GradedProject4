@@ -1,0 +1,43 @@
+.moviePosterContainer h1 {
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.moviePosterContainer{
+    margin: 0 10px;
+}
+
+.moviePosters {
+    display: flex;
+    margin: 20px 0;
+    flex-wrap: wrap;
+    justify-content: start;
+    gap: 3em;
+}
+
+.noResult{
+    width: 100%;
+    text-align: center;
+}
+
+.successs-message{
+    position: fixed;
+    top: 15px;
+    right: 10px;
+}
+
+@media screen and (min-width:501px) and (max-width:866px){
+
+    .moviePosters{
+        gap: 2em;
+        justify-content: space-around;
+    }
+}
+
+@media screen and (max-width:500px){
+
+    .moviePosters{
+        gap: 0.5em;
+        justify-content: space-around;
+    }
+}

@@ -1,0 +1,104 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+    box-shadow: 0 1px 1px 0 rgb(128, 128, 128, 0.8);
+}
+
+.movie-types {
+    margin-left: 10px;
+    padding: 15px;
+}
+
+.movie-types span {
+    margin: 10px;
+    padding-bottom: 13px;
+}
+
+.movie-types span:hover {
+    cursor: pointer;
+}
+
+.search-box {
+    display: flex;
+    margin-top: 10px;
+    border: 1px solid black;
+    border-bottom: 0;
+}
+
+.search-box input {
+    padding: 10px 5px;
+    border: 0;
+}
+
+.search-box input:focus {
+    outline: none;
+    box-shadow: 0 0 4px 1px blue;
+}
+
+.search-box span {
+    background-color: blue;
+    padding: 0 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-box:focus {
+    border: 0;
+    outline: 1px solid blue;
+}
+
+.active{
+    color: #2280cd;
+    border-bottom: 3px solid #2280cd;
+}
+
+.hamburger-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.hamburger-icon{
+    padding: 10px;
+    font-size: x-large;
+}
+
+hr{
+    margin: 0;
+}
+
+.menu{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    z-index: 1;
+}
+
+.cancelIcon{
+    padding: 10px 20px;
+    font-size: large;
+}
+
+.menuItems div{
+    margin: 10px 0 10px 10px;
+}
+
+@media screen and (max-width:900px) {
+    .search-box{
+        margin-top: 0;
+    }
+
+    .search-box input {
+        padding: 5px 5px;
+        border: 0;
+    }
+
+    .navbar {
+        display: none;
+    }
+}
