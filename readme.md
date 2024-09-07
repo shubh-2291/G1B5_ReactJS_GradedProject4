@@ -37,26 +37,26 @@ This project is a movie collection app built with React that provides various se
    ```git clone https://github.com/shubh-2291/G1B5_ReactJS_GradedProject4.git ```
 
   ## steps to start the server
-   cd server
-   Install the dependencies: npm install
+   cd server<br>
+   Install the dependencies: npm install<br>
    npm start
 
   ## steps to start the app
-   cd movies-on-the-tip
-   Install the dependencies: npm install
+   cd movies-on-the-tip <br>
+   Install the dependencies: npm install <br>
    run the app: npm start
 
 The app should now be running at http://localhost:3000/
 
 ## Search Functionality
-   The search feature allows users to search for movies by name in the various sections. The search results update dynamically based on the input provided.
+The search feature allows users to search for movies by name in the various sections. The search results update dynamically based on the input provided.
 
 ## Movie Details
-   Clicking on a movie poster takes you to a detailed page that includes the movie's description, release date, and other relevant information.
+Clicking on a movie poster takes you to a detailed page that includes the movie's description, release date, and other relevant information.
 
 ## Technologies Used
-    React: Frontend framework
-    json-server: Mock backend for serving movie data
-    CSS Flexbox: Layout design
-    axios: for fetching endpoints
-    fontawesome: for icons
+ React: Frontend framework
+ json-server: Mock backend for serving movie data
+ CSS Flexbox: Layout design
+ axios: for fetching endpoints
+ fontawesome: for icons
