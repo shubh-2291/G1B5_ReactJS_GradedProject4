@@ -55,8 +55,8 @@ The search feature allows users to search for movies by name in the various sect
 Clicking on a movie poster takes you to a detailed page that includes the movie's description, release date, and other relevant information.
 
 ## Technologies Used
- React: Frontend framework
- json-server: Mock backend for serving movie data
- CSS Flexbox: Layout design
- axios: for fetching endpoints
- fontawesome: for icons
+  - React: Frontend framework 
+  - json-server: Mock backend for serving movie data
+  - CSS Flexbox: Layout design
+  - axios: for fetching endpoints
+  - fontawesome: for icons
